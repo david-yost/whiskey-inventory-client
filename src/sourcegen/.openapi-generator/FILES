@@ -1,0 +1,9 @@
+.openapi-generator-ignore
+apis/InventoryApi.ts
+apis/index.ts
+index.ts
+models/Bottle.ts
+models/Distillery.ts
+models/ReleaseType.ts
+models/index.ts
+runtime.ts
