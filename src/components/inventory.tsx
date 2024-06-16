@@ -1,7 +1,6 @@
 import { Configuration } from '../sourcegen/runtime'
 import { Bottle, InventoryApi } from '../sourcegen'
 import { useQuery } from '@tanstack/react-query';
-import { useEffect, useState } from 'react';
 import { DataGrid, GridColDef, GridRowsProp } from '@mui/x-data-grid';
 
 const configuration = new Configuration({
@@ -37,6 +36,6 @@ export const Inventory = () =>  {
     })
 
     return (
-        <DataGrid rows={rows} columns={columns} />
+        <DataGrid rows={rows} columns={columns} sx={{ margin:0, padding:0 }}/>
     )
 }
